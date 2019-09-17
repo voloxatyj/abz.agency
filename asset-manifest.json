@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/abz.agency/static/css/main.758c3e24.chunk.css",
+    "main.js": "/abz.agency/static/js/main.6a627139.chunk.js",
+    "main.js.map": "/abz.agency/static/js/main.6a627139.chunk.js.map",
+    "runtime~main.js": "/abz.agency/static/js/runtime~main.ac32843d.js",
+    "runtime~main.js.map": "/abz.agency/static/js/runtime~main.ac32843d.js.map",
+    "static/css/2.266e55a5.chunk.css": "/abz.agency/static/css/2.266e55a5.chunk.css",
+    "static/js/2.e86b3e93.chunk.js": "/abz.agency/static/js/2.e86b3e93.chunk.js",
+    "static/js/2.e86b3e93.chunk.js.map": "/abz.agency/static/js/2.e86b3e93.chunk.js.map",
+    "index.html": "/abz.agency/index.html",
+    "precache-manifest.e2a5a618109d0f9b6ee7ebf78ad57d53.js": "/abz.agency/precache-manifest.e2a5a618109d0f9b6ee7ebf78ad57d53.js",
+    "service-worker.js": "/abz.agency/service-worker.js",
+    "static/css/2.266e55a5.chunk.css.map": "/abz.agency/static/css/2.266e55a5.chunk.css.map",
+    "static/css/main.758c3e24.chunk.css.map": "/abz.agency/static/css/main.758c3e24.chunk.css.map"
+  }
+}
