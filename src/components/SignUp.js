@@ -1,5 +1,14 @@
 import React, { Component } from "react";
 import { ButtonContainer } from "./components";
+import logo from "../logo/abz.png";
+import mail from "../icons/mail.svg";
+import phone from "../icons/phone.svg";
+import cellphone from "../icons/cellphone.svg";
+import fb from "../icons/facebook.svg";
+import linkedin from "../icons/linkedin.svg";
+import instagram from "../icons/instagram.svg";
+import twitter from "../icons/twitter.svg";
+import pinterest from "../icons/pinterest.svg";
 
 const emailRegex = RegExp(
   /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
@@ -184,7 +193,7 @@ class SignUp extends Component {
             <a
               className='navbar-brand-logo pl-4 d-inline-flex align-items-start mt-2 ml-3'
               href='#'>
-              <img src='logo/abz.png' width='30' height='30' alt='logo' />
+              <img src={logo} width='30' height='30' alt='logo' />
               <h4 className='text-white p-1'>abz.agency</h4>
             </a>
             <div className='containerContacts d-flex mr-4 justify-content-around'>
@@ -208,15 +217,15 @@ class SignUp extends Component {
           <div className='footer d-inline-flex justify-content-center'>
             <div className='footerContacts d-grid mt-3'>
               <div className='mail d-inline-flex p-3 ml-4'>
-                <img src='icons/mail.svg' alt='mail' />
+                <img src={mail} alt='mail' />
                 <h4 className='pl-2 mt-2'>work.of.future@gmail.com</h4>
               </div>
               <div className='phone d-inline-flex p-3 ml-4'>
-                <img src='icons/phone.svg' alt='phone' />
+                <img src={phone} alt='phone' />
                 <h4 className='pl-2 mt-2'>+38 (050) 789 24 98</h4>
               </div>
               <div className='cellphone d-inline-flex p-3 ml-4'>
-                <img src='icons/cellphone.svg' alt='cellphone' />
+                <img src={cellphone} alt='cellphone' />
                 <h4 className='pl-2 mt-2'>+38 (095) 556 08 45</h4>
               </div>
             </div>
@@ -255,35 +264,35 @@ class SignUp extends Component {
             </p>
             <div className='infoIcons d-flex justify-content-around mr-4'>
               <img
-                src='icons/facebook.svg'
+                src={fb}
                 width='30'
                 height='30'
                 alt='facebook'
                 className='icons'
               />
               <img
-                src='icons/linkedin.svg'
+                src={linkedin}
                 width='30'
                 height='30'
                 alt='linkedin'
                 className='icons'
               />
               <img
-                src='icons/instagram.svg'
+                src={instagram}
                 width='30'
                 height='30'
                 alt='instagram'
                 className='icons'
               />
               <img
-                src='icons/twitter.svg'
+                src={twitter}
                 width='30'
                 height='30'
                 alt='twitter'
                 className='icons'
               />
               <img
-                src='icons/pinterest.svg'
+                src={pinterest}
                 width='30'
                 height='30'
                 alt='pinterest'

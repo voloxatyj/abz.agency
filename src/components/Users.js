@@ -1,5 +1,11 @@
 import React, { Component } from "react";
 import { ButtonContainer } from "./components";
+import userNoah from "../imgs/user-noah-2x.jpg";
+import userElizabeth from "../imgs/user-elizabeth-2x.jpg";
+import userAdolph from "../imgs/user-adolph-2x.png";
+import userAlexandr from "../imgs/user-alexander-2x.jpg";
+import userMason from "../imgs/user-mason-2x.jpg";
+import userLiam from "../imgs/user-liam-2x.jpg";
 
 class Users extends Component {
   constructor(props) {
@@ -38,7 +44,7 @@ class Users extends Component {
         <div className='usersMembers '>
           <div className='usersRow d-grid'>
             <div className='col-sm-6 d-inline-flex p-4'>
-              <img src='imgs/user-noah-2x.jpg' className='usersImg' />
+              <img src={userNoah} className='usersImg' />
               <div className='usersInfo ml-1 mt-4'>
                 <h3>Noah</h3>
                 <p className='p2'>
@@ -51,7 +57,7 @@ class Users extends Component {
               </div>
             </div>
             <div className='col-sm-6 d-inline-flex p-4'>
-              <img src='imgs/user-adolph-2x.png' className='usersImg' />
+              <img src={userAdolph} className='usersImg' />
               <div className='usersInfo ml-1 mt-4 '>
                 <h3>Adolph Baine Charles David Earl</h3>
                 <p className='p2'>
@@ -64,7 +70,7 @@ class Users extends Component {
               </div>
             </div>
             <div className='col-sm-6 d-inline-flex p-4'>
-              <img src='imgs/user-liam-2x.jpg' className='usersImg' />
+              <img src={userLiam} className='usersImg' />
               <div className='usersInfo ml-1 mt-4 '>
                 <h3>Liamgrieescasey Smith Wiam</h3>
                 <p className='p2'>
@@ -77,7 +83,7 @@ class Users extends Component {
               </div>
             </div>
             <div className='col-sm-6 d-inline-flex p-4'>
-              <img src='imgs/user-elizabeth-2x.jpg' className='usersImg' />
+              <img src={userElizabeth} className='usersImg' />
               <div className='usersInfo ml-1 mt-4 '>
                 <h3>Elizabet</h3>
                 <p className='p2'>
@@ -90,7 +96,7 @@ class Users extends Component {
               </div>
             </div>
             <div className='col-sm-6 d-inline-flex p-4'>
-              <img src='imgs/user-alexander-2x.jpg' className='usersImg' />
+              <img src={userAlexandr} className='usersImg' />
               <div className='usersInfo ml-1 mt-4 '>
                 <h3>Alexander</h3>
                 <p className='p2'>
@@ -103,7 +109,7 @@ class Users extends Component {
               </div>
             </div>
             <div className='col-sm-6 d-inline-flex p-4'>
-              <img src='imgs/user-mason-2x.jpg' className='usersImg' />
+              <img src={userMason} className='usersImg' />
               <div className='usersInfo ml-1 mt-4'>
                 <h3>Mason</h3>
                 <p className='p2'>

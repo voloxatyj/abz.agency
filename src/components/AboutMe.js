@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import AboutMeImg from "../imgs/man-mobile.svg";
 
 class AboutMe extends Component {
   render() {
@@ -7,11 +8,7 @@ class AboutMe extends Component {
         <h1>Let’s get acquainted</h1>
         <div className='mainContainer'>
           <div className='d-flex flex-row bd-highlight justify-content-around m-5 p-3'>
-            <img
-              src='imgs/man-mobile.svg'
-              alt='logo'
-              className='p-2 bd-highlight'
-            />
+            <img src={AboutMeImg} alt='logo' className='p-2 bd-highlight' />
             <div className='mainTextAboutMe p-2 bd-highlight'>
               <h4>I am cool frontend developer</h4>
               <h5>

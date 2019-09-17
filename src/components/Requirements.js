@@ -1,10 +1,12 @@
 import React, { Component } from "react";
+import background2 from "../imgs/bg-2.jpg";
+import laptopMan from "../imgs/man-laptop-v1.svg";
 
 class Requirements extends Component {
   render() {
     return (
       <div className='RequirementsContainer d-flex justify-content-center text-center'>
-        <img src='imgs/bg-2.jpg' className='img' alt='background' />
+        <img src={background2} className='img' alt='background' />
         <h1>General requirements for the test task</h1>
         <div className='RequirementsContainerText p-5'>
           <div className='col p-5'>
@@ -32,7 +34,7 @@ class Requirements extends Component {
             </p>
           </div>
           <div className='col-image'>
-            <img src='imgs/man-laptop-v1.svg' alt='logo' className='img' />
+            <img src={laptopMan} alt='logo' className='img' />
           </div>
         </div>
       </div>

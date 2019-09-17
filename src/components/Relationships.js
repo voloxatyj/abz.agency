@@ -1,4 +1,7 @@
 import React, { Component } from "react";
+import HTML from "../imgs/html.svg";
+import CSS from "../imgs/css.svg";
+import JS from "../imgs/javascript.svg";
 
 class Relationships extends Component {
   render() {
@@ -13,7 +16,7 @@ class Relationships extends Component {
         <div className='titles d-grid mt-5'>
           <div className='row mr-auto ml-auto'>
             <div className='col-sm'>
-              <img src='imgs/html.svg' logo='html' />
+              <img src={HTML} logo='html' />
               <h4>I’m in love with HTML</h4>
               <h5>
                 Hypertext Markup Language(HTML) is the standard markup language
@@ -21,7 +24,7 @@ class Relationships extends Component {
               </h5>
             </div>
             <div className='col-sm'>
-              <img src='imgs/css.svg' logo='css' />
+              <img src={CSS} logo='css' />
               <h4>CSS is my best friend</h4>
               <h5>
                 Cascading Style Sheets(CSS) is a style sheet language used for
@@ -30,7 +33,7 @@ class Relationships extends Component {
               </h5>
             </div>
             <div className='col-sm'>
-              <img src='imgs/javascript.svg' logo='javascript' />
+              <img src={JS} logo='javascript' />
               <h4>JavScript is my passion</h4>
               <h5>
                 JavaScript is a high-level, interpreted programming language. It
