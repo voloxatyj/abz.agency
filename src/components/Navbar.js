@@ -34,7 +34,7 @@ class Navbar extends Component {
         <nav className='navbar navbar-expand-sm align-items-center fixed-top justify-content-around'>
           <Link to='/' className='nav-link-logo p-4'>
             <img
-              src='/logo/logo.svg'
+              src='../public/logo/logo.svg'
               alt='logo'
               className='navbar-brand-logo-title'
             />
@@ -76,11 +76,11 @@ class Navbar extends Component {
               alt='superstar'
               className='photos ml-2'
             />
-            <img src='/icons/sign-out.svg' className='ml-3' />
+            <img src='../public/icons/sign-out.svg' className='ml-3' />
           </Link>
           <div className='align-items-center mr-1'>
             <img
-              src='/icons/line-menu.svg'
+              src='../public/icons/line-menu.svg'
               alt='menu'
               className='icon-menu p-auto'
               onClick={() =>

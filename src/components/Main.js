@@ -5,7 +5,11 @@ class Main extends Component {
   render() {
     return (
       <div className='main d-sm-flex justify-content-center'>
-        <img src='/imgs/bg-1.jpg' className='img-fluid' alt='background' />
+        <img
+          src='../public/imgs/bg-1.jpg'
+          className='img-fluid'
+          alt='background'
+        />
         <div className='mainText d-flex flex-column bd-highlight ml-5 p-3'>
           <div className='textMain bd-highlight'>
             <h1>Test assignment for Frontend Developer position</h1>
