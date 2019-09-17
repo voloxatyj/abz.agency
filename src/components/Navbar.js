@@ -68,15 +68,17 @@ class Navbar extends Component {
           </ul>
           <Link to='/signUp' className='ml-auto '>
             <div className='text-logo d-inline-flex ml-auto justify-content-end'>
-              <h4>{this.state.user.name}</h4>
-              <p>{this.state.user.email}</p>
+              <div className='text-logo-text d-flex justify-content-end align-items-center'>
+                <h4>{this.state.user.name}</h4>
+                <p>{this.state.user.email}</p>
+              </div>
+              <img
+                src={this.state.user.photo}
+                alt='superstar'
+                className='photos ml-2'
+              />
+              <img src='icons/sign-out.svg' className='ml-3' />
             </div>
-            <img
-              src={this.state.user.photo}
-              alt='superstar'
-              className='photos ml-2'
-            />
-            <img src='icons/sign-out.svg' className='ml-3' />
           </Link>
           <div className='align-items-center mr-1'>
             <img
