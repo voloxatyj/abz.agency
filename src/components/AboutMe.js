@@ -8,7 +8,7 @@ class AboutMe extends Component {
         <div className='mainContainer'>
           <div className='d-flex flex-row bd-highlight justify-content-around m-5 p-3'>
             <img
-              src='/imgs/man-mobile.svg'
+              src='imgs/man-mobile.svg'
               alt='logo'
               className='p-2 bd-highlight'
             />
