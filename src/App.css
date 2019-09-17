@@ -111,9 +111,6 @@ p {
   margin-left: auto;
   z-index: 3;
 }
-.ml-auto {
-  display: contents;
-}
 .ml-auto:hover {
   text-decoration: none;
 }
