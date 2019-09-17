@@ -67,7 +67,7 @@ class Navbar extends Component {
             </li>
           </ul>
           <Link to='/signUp' className='ml-auto '>
-            <div className='text-logo d-flex ml-auto justify-content-end'>
+            <div className='text-logo d-inline-flex ml-auto justify-content-end'>
               <h4>{this.state.user.name}</h4>
               <p>{this.state.user.email}</p>
             </div>
